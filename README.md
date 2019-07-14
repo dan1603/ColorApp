@@ -11,3 +11,7 @@ This is a test application, which reads colors list from XML file and shows this
 - DI: Dagger 2
 - Database: Room
 - Android Architecture Components: LiveData, ViewModel
+
+#### Demonstration
+
+Video demonstration available <a href="https://youtu.be/vKuPeFzBwrM">here</a>.
