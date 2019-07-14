@@ -3,9 +3,7 @@ package com.kalashnyk.denys.colorapp.presentation.activities.main
 import android.arch.lifecycle.Observer
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
-import android.support.annotation.RequiresApi
 import android.support.v7.widget.LinearLayoutManager
 import com.kalashnyk.denys.colorapp.R
 import com.kalashnyk.denys.colorapp.di.component.ViewModelComponent
@@ -21,7 +19,6 @@ class MainActivity : BaseActivity() {
     var viewModel: ColorsViewModel? = null
         @Inject set
 
-    @RequiresApi(Build.VERSION_CODES.O)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
